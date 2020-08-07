@@ -1,0 +1,49 @@
+/*FOOTER*/
+
+footer {
+    background-color: #120c1a;
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        font-size: 0.7rem;
+        color: white;
+        padding: 0;
+    }
+    h5 {
+        font-size: 1rem;
+        color: white;
+    }
+}
+
+.fa {
+    color: white;
+    font-size: 3rem!important;
+}
+
+.footer__copy {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.separador {
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+}
+
+.logo__footer {
+    /* fill: white; */
+    width: 35vw;
+    /* height: 50%; */
+}
+
+@media (min-width: 769px) {
+    .logo__footer {
+        width: 20vw;
+    }
+    footer {
+        height: 50vh;
+    }
+}

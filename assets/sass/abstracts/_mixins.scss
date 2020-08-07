@@ -1,0 +1,10 @@
+@mixin btn__base {
+    width: 80vw;
+    height: 10vh;
+    background-color: #D34728;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+@mixin sombra {
+    text-shadow: 2px 2px 5px #4845e2;
+}

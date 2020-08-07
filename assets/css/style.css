@@ -1,0 +1,428 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(#F7F3DD, #F0B975, #281810);
+}
+
+/*Fuente*/
+/*Font weight*/
+/*Font sizes*/
+/*Párrafos*/
+.cuerpo__parrafo {
+  font-family: "Rosario", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 50px !important;
+  color: black;
+}
+
+.subtitulo {
+  font-family: "Rosario", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.fecha__parrafo {
+  font-family: "Playfair Display", "serif";
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 30px;
+  opacity: 70%;
+}
+
+.pag__tamaño-sm {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.pag__tamaño-md {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .lead {
+    font-size: 1.2rem;
+  }
+}
+.jumbotron p {
+  color: white;
+  text-shadow: 2px 2px 5px #4845e2;
+}
+
+.titulo__seccion {
+  font-family: "Lobster", cursive;
+  color: black;
+  justify-content: center;
+}
+
+.bajada {
+  text-shadow: 2px 2px 5px #4845e2;
+  font-size: 18px;
+}
+
+@media (min-width: 764px) {
+  .bajada {
+    text-shadow: 2px 2px 5px #4845e2;
+    font-size: 30px !important;
+  }
+
+  .titulo__seccion {
+    font-family: "Lobster", cursive;
+    color: black;
+    font-size: 70px !important;
+  }
+}
+.navbar {
+  z-index: 10;
+  background-color: black;
+  height: 10vh;
+}
+
+.nav__logo {
+  width: 10vh;
+  display: block;
+}
+
+.navbar-toggler {
+  font-size: 20px;
+}
+
+.fa {
+  font-size: 8rem !important;
+}
+
+.texto__desc {
+  color: white;
+}
+
+.foto__perfil {
+  width: 50vw;
+}
+
+/*Sección productora*/
+.compania_l {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  /* top: 0; */
+  height: 80%;
+}
+
+.compania_r {
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  /* top: 0; */
+  height: 80%;
+}
+
+.compania_txt {
+  z-index: 1;
+  right: 0;
+}
+
+/*Productora*/
+#talleres,
+#festivales {
+  height: 100vh;
+}
+
+.formulario {
+  width: 50vw;
+  background-color: white;
+}
+
+.creadora {
+  width: 50vw;
+}
+
+.productora {
+  padding: 8vw;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), white, white, white, rgba(255, 255, 255, 0));
+  height: 100vh;
+}
+
+@media (min-width: 764px) {
+  .foto__perfil {
+    height: 300px;
+    width: 200px;
+  }
+
+  .menu__productora {
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+  }
+  .menu__productora li {
+    text-indent: 0;
+    width: 200px;
+    margin-right: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+  }
+
+  .titulo__productora {
+    width: 100%;
+    text-align: center;
+  }
+}
+.carrusel_punto li {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+.menu__productora {
+  position: relative;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #120c1a;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  font-size: 0.7rem;
+  color: white;
+  padding: 0;
+}
+footer h5 {
+  font-size: 1rem;
+  color: white;
+}
+
+.fa {
+  color: white;
+  font-size: 3rem !important;
+}
+
+.footer__copy {
+  color: white;
+  font-size: 0.7rem;
+}
+
+.separador {
+  height: 10vh;
+  width: 100%;
+  background-color: red;
+}
+
+.logo__footer {
+  /* fill: white; */
+  width: 35vw;
+  /* height: 50%; */
+}
+
+@media (min-width: 769px) {
+  .logo__footer {
+    width: 20vw;
+  }
+
+  footer {
+    height: 50vh;
+  }
+}
+p {
+  font-size: 0.8rem;
+}
+
+/*Talleres*/
+/* #talleres {
+    background-color: rgba(255, 255, 255, 0.3); 
+} */
+/*Foto taller*/
+.foto_taller {
+  width: 100%;
+}
+
+.perfil {
+  width: 150px;
+  height: 150px;
+}
+
+.tarjetas {
+  background-image: linear-gradient(white rgba(158, 30, 30, 0));
+}
+
+.btn__postular {
+  width: 80vw;
+  height: 10vh;
+  background-color: #D34728;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+.btn__info {
+  width: 100%;
+  height: 10vh;
+  background-color: green;
+  color: red;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+.btn__productora {
+  width: 80%;
+  height: 40px;
+  background-color: red;
+}
+
+.btn__taller {
+  width: 80vw;
+  height: 10vh;
+  background-color: #D34728;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #F0B975;
+  width: 100%;
+}
+.btn__taller a {
+  list-style: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .btn__postular {
+    width: 15vw;
+    height: 8vh;
+    margin-top: 1rem;
+  }
+}
+.carru__tamano {
+  width: 70vw;
+}
+
+.taller__texto {
+  font-size: 0.8rem;
+}
+
+.carrusel_punto li {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+/*Main*/
+#myVideo {
+  min-width: 100vw;
+  min-height: 100%;
+}
+
+.contenedor__video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100vw;
+  height: 100vh;
+  /*Acá hay que poner el alto del viewport para que cubra toda la primera pantalla, restando la altura del nabar que es como 10vh*/
+  border-radius: 0px;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+
+.logo__header {
+  width: 50vw;
+  margin-bottom: 3rem;
+}
+
+.texto__principal {
+  background-color: rgba(214, 214, 214, 0.411);
+  color: black !important;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.jumbo_festival {
+  background-image: url(../img/jumbo02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 100hv;
+  width: 100vw;
+}
+.jumbo_festival .jumbotron {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+@media (min-width: 768px) {
+  .logo__header {
+    width: 70%;
+  }
+
+  .texto__principal {
+    width: 50vw;
+    font-size: 1rem;
+    padding: 3rem;
+  }
+
+  .texto__bajada {
+    font-size: 1rem;
+  }
+
+  #myVideo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    z-index: -99;
+  }
+
+  .carrusel_punto {
+    color: red !important;
+  }
+}
+@media (min-width: 992px) {
+  .texto__principal {
+    width: 50vw;
+    font-size: 1.2rem;
+  }
+
+  .texto__bajada {
+    font-size: 1rem;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info__fondo {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.head_fest {
+  background-image: url(https://picsum.photos/seed/picsum/1100/300);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-image: url(../img/fondo-festival.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

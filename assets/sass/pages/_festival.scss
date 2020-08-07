@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info__fondo {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.head_fest {
+    background-image: url(https://picsum.photos/seed/picsum/1100/300);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: 40vh;
+}
+
+body {
+    background-image: url(../img/fondo-festival.jpg);
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}

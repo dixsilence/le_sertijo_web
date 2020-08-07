@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Le sertijo
+
+    </title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+    <script src="https://use.fontawesome.com/912558ce12.js"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky navbar-dark d-flex flex-wrap">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img class="nav__logo" src="assets/img/logo1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link link__empresa d-block d-md-none" href="#productora-sm">La Productora</a>
+                        <a class="nav-link link__empresa d-none d-md-block" href="#productora-md">La Productora</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link link__empresa" href="#talleres">Talleres</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link link__empresa" href="festival.html">Festivales</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link link__empresa" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--HERO con carrusel-->
+    <section>
+        <div id="carousel-hero" class="carousel slide" data-ride="carousel" data-interval="9000">
+            <ol class="carousel-indicators carrusel_punto">
+                <li data-target="#carousel-hero" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-hero" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="content">
+                        <div class="jumbotron d-flex flex-wrap align-items-center">
+
+                            <div class="d-flex flex-wrap justify-content-around">
+                                <div class="col-12 col-md-5 d-flex align-self-center justify-content-center">
+                                    <img class="logo__header " src="assets/img/logo2.png"></div>
+                                <div class="col-12 col-md-7 d-flex flex-wrap justify-content-center">
+
+                                    <hr class="d-none d-md-block my-4">
+                                    <p class="lead texto__principal"> Este es un espacio libre, de escenificación de Artes escénicas para los creadores emergentes y la comunidad. Te ofrecemos un espacio de escenificación teatral para creadores.
+                                        <br>Si eres uno, ¡puedes solicitar un espacio para promocionarte! </p>
+
+                                    <button type="button" class="btn text-light btn__postular" data-toggle="modal" data-target="#exampleModal">
+                                        SOLICITAR
+                                      </button>
+                                </div>
+                            </div>
+                            <div class="contenedor__video">
+
+                                <video autoplay muted loop id="myVideo" class=" d-flex align-items-center">
+                            <source src="assets/img/ojo.webm" type="video/mp4">
+                          </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="content jumbo_festival">
+                        <div class="jumbotron d-flex flex-wrap align-items-center">
+
+                            <div class="d-flex flex-wrap justify-content-around">
+                                <div class="col-12 col-md-7 d-flex flex-column align-items-center justify-content-center">
+                                    <h1 class="titulo__seccion pb-5">Festival Escenifica</h1>
+                                    <h2 class="bajada px-3 pb-5">"La comunidad genera públicos y estos públicos generan nuevas comunidades”</h2>
+                                </div>
+                                <div class="col-12 col-md-5 d-flex flex-wrap justify-content-center align-items-center pb-5">
+
+                                    <hr class="d-none d-md-block my-4">
+                                    <p class="texto__principal">El festival de la productora Lé Sertijó promueve la relación entre las comunidades con el teatro , la danza ,la performance y las artes visuales. A través de la experimentación y la interacción de realizaciones escénicas.
+                                        Para nuestro lanzamiento la productora lé sertijó se sumó a la contingencia en apoyo a la comunidad artística. Comenzando simbólicamente con la Danza .</p>
+                                    <button type="button" class="btn text-light btn__postular">Más información</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel-hero" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-hero" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!--FIN HERO con carrusel-->
+
+
+
+    <!--PRODUCTORA SM-->
+    <section class="container d-block d-md-none" id="productora-sm">
+        <div class="col">
+            <h1 class="titulo_taller text-white py-5">La productora</h1>
+        </div>
+        <div class="row">
+
+            <div class="col">
+
+                <div class="col-12 col-md-6">
+
+                    <div class=" d-flex flex-column align-items-center">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                        <h3 class="py-4">Lé Sertijó</h3>
+                        <p class="texto__desc"> Nació desde la Compañía de Teatro que apuntaba sobre temáticas contingentes de nuestra sociedad y la comunidad, que durante el proceso de experimentación estas propuestas convocaban una estética visual urgente . Es entonces como
+                            fue creciendo un lenguaje audivisual en las propuestas.</p>
+                        <p class="d-none d-md-block"> Y que es esencial en la productora. Logo de fondo : el concepto de nuestro logo de fondo “Montaje”, nos inspira como ensamble que fija los “procesos “dentro de una creación, esto es tan importante como el resultado, llamado “puesta
+                            en escena”. </p>
+                    </div>
+
+                    <div class=" d-flex flex-column align-items-center">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                        <h3 class="py-4">De la Materialidad </h3>
+                        <p class="texto__desc py-4">
+                            La materialidad es fundamental en el Montaje , trabajar de lo reciclable no denigra una producción escénica sino más bien valora una creación pequeña un submundo que es parte del ensamble. Es así como se posesiona nuestra Productora entendiéndola como
+                            un “Producto” Artístico, desde el lugar de las artes no de las empresas</p>
+                        <p class="d-none d-md-block">aunque somos una empresa de un producto pero con un espíritu artístico y estético. Finalmente el Ministerio de Economía apoyó este emprendimiento que engloba este espíritu que es síntesis de la fusión con las Artes escénicas y
+                            la comunidad.
+                        </p>
+                    </div>
+
+                    <div class=" d-flex flex-column align-items-center">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                        <h3 class="py-4">De la Pandemia</h3>
+                        <p class="texto__desc py-4">
+                            Hay que visibilizar esta nueva contingencia las artes que nos trajo un cambio radical en las artes.Como productora no dejamos pasar las estrategias de innovación que nos trajo la pandemia, es por esto que nuestra página entendida bajo la gráfica de “
+                            Espacio Libre ” contiene la capacidad de aumentar el espacio y crear propuestas culturales generando convocatorias hacia creadores emergentes, y centrando la comunidad de los públicos.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- La creadora -->
+        <div class="row d-block d-md-none">
+            <h1 class="titulo_taller text-white py-5">La Creadora</h1>
+
+            <div class="col">
+
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <img class="foto__perfil" src="assets/img/perfil1.png">
+                    <h3 class="py-4">Katerine Barrera Lagos</h3>
+                    <p class="texto__desc"> Katerine es la creadora y fundadora de la productora Lé Sertijó, con una vasta experiencia en experimentación teatral y de producción escénica. Ha trabajado en variados programas de gobierno coordinando talleres culturales, de danza,
+                        teatro y narrativa, dominando esta última. Durante el 2019 fue seleccionada por el fondo capital abeja para formar la Productora Escénica de Montajes. </p>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--FIN PRODUCTORA SM-->
+
+    <!--PRODUCTORA MD-->
+    <section class="d-none d-md-block productora" id="productora-md">
+        <div class="row d-flex justify-content-center">
+            <h1 class="titulo_productora text-dark pb-4">La productora</h1>
+        </div>
+        <div class="row pb-5">
+            <ul class="carousel-indicators menu__productora d-flex justify-content-center">
+                <li data-target="#carousel-productora" data-slide-to="0" class="active">
+                    Lé Sertijó
+                </li>
+                <li data-target="#carousel-productora" data-slide-to="1">
+                    De la Materialidad
+                </li>
+                <li data-target="#carousel-productora" data-slide-to="2">
+                    De la pandemia
+                </li>
+                <li data-target="#carousel-productora" data-slide-to="3">
+                    La Creadora
+                </li>
+            </ul>
+        </div>
+        <div class="row productora-carrusel mt-5">
+            <div id="carousel-productora" class="carousel slide px-5">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-3">
+                                <img class="d-block" src=" https://picsum.photos/200/200?random=1"></div>
+                            <div class="col-8">
+                                <h3 class="py-4">Lé Sertijó</h3>
+                                <p>Nació desde la Compañía de Teatro que apuntaba sobre temáticas contingentes de nuestra sociedad y la comunidad, que durante el proceso de experimentación estas propuestas convocaban una estética visual urgente . Es entonces
+                                    como fue creciendo un lenguaje audivisual en las propuestas.</p>
+                                <p>Y que es esencial en la productora. Logo de fondo : el concepto de nuestro logo de fondo “Montaje”, nos inspira como ensamble que fija los “procesos “dentro de una creación, esto es tan importante como el resultado, llamado
+                                    “puesta en escena”. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center px-5">
+                            <div class="col-3">
+                                <img class="d-block" src=" https://picsum.photos/200/200?random=2" alt="Second slide"></div>
+                            <div class="col-8">
+                                <h3 class="py-4">De la Materialidad</h3>
+                                <p>
+                                    La materialidad es fundamental en el Montaje , trabajar de lo reciclable no denigra una producción escénica sino más bien valora una creación pequeña un submundo que es parte del ensamble. Es así como se posesiona nuestra Productora entendiéndola como
+                                    un “Producto” Artístico, desde el lugar de las artes no de las empresas</p>
+                                <p>aunque somos una empresa de un producto pero con un espíritu artístico y estético. Finalmente el Ministerio de Economía apoyó este emprendimiento que engloba este espíritu que es síntesis de la fusión con las Artes escénicas
+                                    y la comunidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center px-5">
+                            <div class="col-3">
+                                <img class="d-block" src=" https://picsum.photos/200/200?random=3" alt="Third slide"></div>
+                            <div class="col-8">
+                                <h3 class="py-4">De la pandemia</h3>
+                                <p>
+                                    Hay que visibilizar esta nueva contingencia las artes que nos trajo un cambio radical en las artes.Como productora no dejamos pasar las estrategias de innovación que nos trajo la pandemia, es por esto que nuestra página entendida bajo la gráfica de “
+                                    Espacio Libre ” contiene la capacidad de aumentar el espacio y crear propuestas culturales generando convocatorias hacia creadores emergentes, y centrando la comunidad de los públicos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center px-5">
+                            <div class="col-3">
+                                <img class="d-block foto__perfil img-fluid" src="assets/img/katy.jpg" alt="Fourth slide"></div>
+                            <div class="col-8">
+                                <h3 class="py-4">Katerine Barrera Lagos</h3>
+                                <p>
+                                    Katerine es la creadora y fundadora de la productora Lé Sertijó, con una vasta experiencia en experimentación teatral y de producción escénica. Ha trabajado en variados programas de gobierno coordinando talleres culturales, de danza, teatro y narrativa,
+                                    dominando esta última. Durante el 2019 fue seleccionada por el fondo capital abeja para formar la Productora Escénica de Montajes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN PRODUCTORA MD-->
+
+
+    <!--TALLERES SM -->
+    <div id="carouselExampleControls2" class="carousel d-block d-md-none pb-5 slide" data-ride="carousel">
+        <h1 class="titulo__seccion py-5">Talleres</h1>
+        <div class="carousel-inner carru__tamano d-flex align-items-center mx-auto">
+
+            <div class="carousel-item active">
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/video.png" alt="First Slide">
+                    <div class="card-body">
+                        <h5 class="card-title">Narrativa escénica</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item taller__texto">Exploraremos las propuestas escénicas teatrales que ocupan herramientas audiovisuales y elementos cinematográficos. </li>
+                        <li class="list-group-item d-flex justify-content-between"> <a href=" #" class="card-link btn align-items-center">Más información</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/video.png" alt="Second Slide">
+                    <div class="card-body">
+                        <h5 class="card-title card-title__producto">Narrativa escénica</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item taller__texto">Exploraremos las propuestas escénicas teatrales que ocupan herramientas audiovisuales y elementos cinematográficos. </li>
+                        <li class="list-group-item d-flex justify-content-between"> <a href=" #" class="card-link btn align-items-center">Más información</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/video.png" alt="Third Slide">
+                    <div class="card-body">
+                        <h5 class="card-title card-title__producto">Narrativa escénica</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item taller__texto">Exploraremos las propuestas escénicas teatrales que ocupan herramientas audiovisuales y elementos cinematográficos. </li>
+                        <li class="list-group-item d-flex justify-content-between"> <a href=" #" class="card-link btn align-items-center">Más información</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--FIN TALLERES SM-->
+
+    <!--TALLERES MD-->
+    <section class="tarjetas d-none d-md-block pb-5" id="talleres">
+        <div class="container">
+            <!--Un div para el separador-->
+
+            <!-- <hr class="barra__separacion my-5"> -->
+
+            <!--Un div para el título de la sección-->
+            <div class="row justify-content-md-center">
+                <h1 class="titulo__seccion text-white my-5">Talleres</h1>
+            </div>
+            <!--Un div para el card deck-->
+        </div>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://picsum.photos/300/200?random=4" class="card-img-top" alt="Panqueques con manjar y crema">
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title">Narrativa Escénica</h5>
+                        <p class="card-text">Exploraremos las propuestas escénicas teatrales que ocupan herramientas audiovisuales y elementos cinematográficos.</p>
+                        <button type="button" class="btn text-light btn__taller">
+                            <a href="taller_escenica.html">Más información</a> 
+                          </button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/300/200?random=8" class="card-img-top" alt="Tiramisú">
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title">Cuenta cuentos</h5>
+                        <p class="card-text"> Este arte es muy antiguo sin embargo a pesar de todo nunca dejamos de sorprendernos de los cuentos que podemos narrar, y dejarnos impresionar por el momento mágico que ocurre.</p>
+                        <button type="button" class="btn text-light btn__taller">
+                            <a href="taller_cuentacuentos.html">Más información</a> 
+                          </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/diario2.jpg" class="card-img-top height:200px" alt="Plateada">
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title">El Doctor de la Alegría</h5>
+                        <p class="card-text">
+                            Es un taller vía streaming para niños y niñas quienes están bajo la presión de responsabilidades en línea con sus establecimientos y necesitan liberar stress</p>
+                        <button type="button" class="btn text-light btn__taller">
+                                <a href="taller_doctor-alegria.html">Más información</a> 
+                              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--FIN TALLERES DM-->
+
+
+    <!--FOOTER-->
+    <footer class="mt-5">
+        <div class="container">
+
+            <div class="row d-flex align-items-center justify-content-around py-3">
+
+                <div class="col col-md-4 d-flex justify-content-center">
+                    <img class="logo__footer" src="assets/img/logo-blanco.png" alt="logo">
+
+                </div>
+                <div class="col col-md-3 d-flex flex-wrap">
+                    <ul>
+                        <li>
+                            <h5>Contacto</h5>
+                        </li>
+                        <li>correo@gmail.com</li>
+                        <li>+56 9 666 666 66</li>
+                        <li>Calle Real 666, Santiasco</li>
+                    </ul>
+                </div>
+
+                <!-- <div class=" d-block d-md-none col-md-4 d-flex flex-wrap justify-content-around py-1 px-5">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                    </ul>
+                </div>
+                <div class="d-none d-md-block row justify-content-around py-1 px-5">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                    </ul>
+                </div> -->
+            </div>
+
+
+            <div class="row justify-content-around pb-4">
+                <p class="footer__copy text-center">Todos los derechos reservados Wacom Technologies y Sasss</p>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center">
+
+            <video class=" d-flex align-items-center" controls>
+                 <source src="assets/img/video2.mp4" type="video/mp4">
+             </video>
+            <video class=" d-flex align-items-around" controls height="500">
+                 <source src="assets/img/video2.mp4" type="video/mp4">
+             </video>
+        </div>
+    </footer>
+    <!-- sass --watch assets/sass/main.scss:assets/css/style.css -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

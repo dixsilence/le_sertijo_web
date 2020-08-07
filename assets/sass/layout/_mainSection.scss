@@ -1,0 +1,45 @@
+ //Sección de info//
+ .fa {
+     font-size: 8rem!important;
+ }
+ 
+ .texto__desc {
+     color: white;
+ }
+ 
+ .foto__perfil {
+     width: 50vw;
+ }
+ /*Sección productora*/
+ 
+ .compania_l {
+     z-index: 0;
+     position: absolute;
+     left: 0;
+     /* top: 0; */
+     height: 80%;
+ }
+ 
+ .compania_r {
+     z-index: 0;
+     position: absolute;
+     right: 0;
+     /* top: 0; */
+     height: 80%;
+ }
+ 
+ .compania_txt {
+     z-index: 1;
+     right: 0;
+ }
+ /*Productora*/
+ 
+ #talleres,
+ #festivales {
+     height: 100vh;
+ }
+ 
+ .formulario {
+     width: 50vw;
+     background-color: white;
+ }

@@ -1,0 +1,113 @@
+/*Fuente*/
+
+$roboto: 'Roboto',
+'sans-serif';
+$playfair: 'Playfair Display',
+'serif';
+///////////
+$rosario: 'Rosario',
+sans-serif;
+$lobster:'Lobster',
+cursive;
+$jost: 'Jost',
+sans-serif;
+///
+
+/*Font weight*/
+
+$font-weight-regular:400;
+$font-weight-light:300;
+$font-weight-bold:700;
+
+/*Font sizes*/
+
+$font-size-xx-large: 70px; //4.375rem//
+$font-size-x-large: 30px; //1.875rem//
+$font-size-large: 18px; //1.125rem//
+$font-size-medium: 16px; //1rem//
+$font-size-small: 12px; //0.75rem//
+
+/*Párrafos*/
+
+.cuerpo__parrafo {
+    font-family: $rosario;
+    font-size: $font-size-small;
+    font-weight: $font-weight-regular;
+    margin-top: 15px;
+    margin-bottom: 50px!important;
+    color: black;
+    //  line-height: 40px; //Interlineado//
+}
+
+.subtitulo {
+    font-family: $rosario;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-medium;
+    // margin-top: 15px;
+    // margin-bottom: 50px!important;
+    //  line-height: 40px; //Interlineado//
+}
+
+.fecha__parrafo {
+    font-family: $playfair;
+    font-weight: $font-weight-light;
+    font-size: $font-size-large;
+    margin-top: 30px;
+    //  color: $eerieBlack;
+    opacity: 70%;
+}
+
+//Tamaños fuente según soporte
+.pag__tamaño-sm {
+    font-family: $roboto;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-small;
+}
+
+.pag__tamaño-md {
+    font-family: $roboto;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-medium;
+}
+
+//  .destacado {
+//       color: $rudyPink;
+//  }
+//////////////////////////////
+@media (max-width: 768px) {
+    .lead {
+        font-size: 1.2rem;
+    }
+}
+
+.jumbotron {
+    p {
+        color: white;
+        @include sombra;
+    }
+}
+
+.titulo__seccion {
+    font-family: 'Lobster', cursive;
+    color: black;
+    justify-content: center;
+}
+
+.bajada {
+    // width: 50vw;
+    @include sombra;
+    font-size: $font-size-large;
+}
+
+@media (min-width:764px) {
+    .bajada {
+        // width: 50vw;
+        @include sombra;
+        font-size: $font-size-x-large!important;
+    }
+    .titulo__seccion {
+        font-family: 'Lobster', cursive;
+        color: black;
+        font-size: $font-size-xx-large!important;
+    }
+}
