@@ -63,12 +63,14 @@ body {
 .bajada {
   text-shadow: 2px 2px 5px #4845e2;
   font-size: 18px;
+  color: white !important;
 }
 
 @media (min-width: 764px) {
   .bajada {
     text-shadow: 2px 2px 5px #4845e2;
     font-size: 30px !important;
+    color: white !important;
   }
 
   .titulo__seccion {
@@ -143,7 +145,7 @@ body {
 
 .productora {
   padding: 8vw;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), white, white, white, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(white, white, white, rgba(255, 255, 255, 0));
   height: 100vh;
 }
 
@@ -341,7 +343,7 @@ p {
 
 .texto__principal {
   background-color: rgba(214, 214, 214, 0.411);
-  color: black !important;
+  color: white !important;
   padding: 1rem;
   font-size: 0.8rem;
 }

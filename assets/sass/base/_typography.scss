@@ -97,6 +97,7 @@ $font-size-small: 12px; //0.75rem//
     // width: 50vw;
     @include sombra;
     font-size: $font-size-large;
+    color: white!important;
 }
 
 @media (min-width:764px) {
@@ -104,6 +105,7 @@ $font-size-small: 12px; //0.75rem//
         // width: 50vw;
         @include sombra;
         font-size: $font-size-x-large!important;
+        color: white!important;
     }
     .titulo__seccion {
         font-family: 'Lobster', cursive;
