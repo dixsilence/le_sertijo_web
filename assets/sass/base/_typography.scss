@@ -1,16 +1,12 @@
 /*Fuente*/
 
-$roboto: 'Roboto',
-'sans-serif';
-$playfair: 'Playfair Display',
-'serif';
-///////////
 $rosario: 'Rosario',
 sans-serif;
-$lobster:'Lobster',
-cursive;
-$jost: 'Jost',
+$anton: 'Anton',
 sans-serif;
+$oswald: 'Oswald',
+sans-serif;
+;
 ///
 
 /*Font weight*/
@@ -30,7 +26,7 @@ $font-size-small: 12px; //0.75rem//
 /*Párrafos*/
 
 .cuerpo__parrafo {
-    font-family: $rosario;
+    font-family: $$oswald;
     font-size: $font-size-small;
     font-weight: $font-weight-regular;
     margin-top: 15px;
@@ -48,28 +44,25 @@ $font-size-small: 12px; //0.75rem//
     //  line-height: 40px; //Interlineado//
 }
 
-.fecha__parrafo {
-    font-family: $playfair;
-    font-weight: $font-weight-light;
-    font-size: $font-size-large;
-    margin-top: 30px;
-    //  color: $eerieBlack;
-    opacity: 70%;
-}
-
+// .fecha__parrafo {
+//     font-family: $playfair;
+//     font-weight: $font-weight-light;
+//     font-size: $font-size-large;
+//     margin-top: 30px;
+//     //  color: $eerieBlack;
+//     opacity: 70%;
+// }
 //Tamaños fuente según soporte
-.pag__tamaño-sm {
-    font-family: $roboto;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-small;
-}
-
-.pag__tamaño-md {
-    font-family: $roboto;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-medium;
-}
-
+// .pag__tamaño-sm {
+//     font-family: $roboto;
+//     font-weight: $font-weight-regular;
+//     font-size: $font-size-small;
+// }
+// .pag__tamaño-md {
+//     font-family: $roboto;
+//     font-weight: $font-weight-regular;
+//     font-size: $font-size-medium;
+// }
 //  .destacado {
 //       color: $rudyPink;
 //  }
@@ -88,7 +81,7 @@ $font-size-small: 12px; //0.75rem//
 }
 
 .titulo__seccion {
-    font-family: 'Lobster', cursive;
+    font-family: $anton!important;
     color: black;
     justify-content: center;
 }
@@ -108,7 +101,6 @@ $font-size-small: 12px; //0.75rem//
         color: white!important;
     }
     .titulo__seccion {
-        font-family: 'Lobster', cursive;
         color: black;
         font-size: $font-size-xx-large!important;
     }
