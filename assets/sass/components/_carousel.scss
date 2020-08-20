@@ -1,13 +1,247 @@
-.carru__tamano {
-    width: 70vw;
-}
-
-.taller__texto {
-    font-size: 0.8rem;
-}
-
-.carrusel_punto li {
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-}
+    /////////////////////
+    //Indicadores generales
+    /////////////////////
+    .carousel-indicators {
+        cursor: pointer;
+    }
+    
+    .carousel-indicators .active {
+        //Esto cambia todos los indicadores activos a este color
+        background-color: $rojo!important;
+    }
+    
+    // Carrusel del Hero
+    #carousel-hero .carousel-indicators li {
+        //Esto cambiael color y forma de los indicadores
+        height: 20px;
+        width: 20px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: $naranjo2;
+        display: none;
+    }
+    
+    @media (min-width:764px) {
+        #carousel-hero .carousel-indicators li {
+            //Esto cambiael color y forma de los indicadores
+            display: block;
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            background-color: $naranjo2;
+        }
+    }
+    
+    /////////////////////
+    //Carrusel hero
+    /////////////////////
+    //Controladores (flechas)
+    #carousel-hero .carousel-control-next,
+    #carousel-hero .carousel-control-prev {
+        width: 50px;
+        // background-color: $naranjo1!important;
+        // right: -35px;
+        // display: block;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: $naranjo2
+    }
+    
+    @media (min-width:764px) {
+        #carousel-hero .carousel-control-prev,
+        #carousel-hero .carousel-control-next {
+            display: none;
+        }
+    }
+    
+    /////////////////////
+    //Carrusel taller
+    /////////////////////
+    /////////Pantallas MD/////////
+    @media (min-width: 992px) {
+        //Estos controlan el movimiento del slide, si es más o menos van a verse traslapados
+        #carrusel-taller .carousel-inner .carousel-item-right.active,
+        #carrusel-taller .carousel-inner .carousel-item-next {
+            transform: translateX(33.3%);
+        }
+        #carrusel-taller .carousel-inner .carousel-item-left.active,
+        #carrusel-taller .carousel-inner .carousel-item-prev {
+            transform: translateX(-33.3%);
+        }
+        //Controladores (flechas)
+        #carrusel-taller .carousel-control-next {
+            width: 50px;
+            // background-color: $naranjo1!important;
+            right: -35px;
+        }
+        #carrusel-taller .carousel-control-prev {
+            width: 50px;
+            // background-color: $naranjo1!important;
+            left: -35px;
+        }
+        #carrusel-taller .carousel-inner .carousel-item-right,
+        #carrusel-taller .carousel-inner .carousel-item-left {
+            transform: translateX(0);
+        }
+    }
+    
+    #carrusel-taller .carousel-inner .carousel-item.active,
+    #carrusel-taller .carousel-inner .carousel-item-next,
+    #carrusel-taller .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+    
+    /////////////////////
+    //Carrusel Productora 
+    /////////////////////
+    #carrusel-productora {
+        height: 60vh;
+        width: 100%;
+    }
+    
+    /////////Pantallas MD/////////
+    @media (min-width: 992px) {
+        #carrusel-productora {
+            height: 80vh;
+        }
+    }
+    
+    #carrusel-productora .carousel-indicators {
+        // position: relative;
+        top: 0;
+        li {
+            padding: 0 2vw;
+            min-width: 20vw;
+            height: 35px;
+            border-radius: 25px;
+            background-color: $naranjo2;
+            font-size: $font-size-sm;
+        }
+        .active {
+            background-color: $rojo;
+        }
+    }
+    
+    #carrusel-productora .carousel-inner {
+        height: 50vh;
+        top: 5vh;
+        // background-color: red;
+    }
+    
+    /////////Pantallas MD/////////
+    @media (min-width: 992px) {
+        #carrusel-productora .carousel-item .row {
+            height: 60vh;
+            // background-color: blue;
+        }
+        #carrusel-productora .carousel-inner {
+            height: 100%;
+            top: 10vh;
+            // background-color: red;
+        }
+        #carrusel-productora .carousel-indicators {
+            // position: relative;
+            top: 5vh;
+            li {
+                padding: 0 2vw;
+                min-width: 10vw;
+                height: 35px;
+                border-radius: 25px;
+                ;
+            }
+            .active {
+                background-color: $rojo;
+            }
+        }
+    }
+    
+    /////////////////////
+    //Carrusel Festival 
+    /////////////////////
+    #carrusel-festival .carousel-inner {
+        height: 100%;
+        top: 5vh;
+        // background-color: red;
+    }
+    
+    #carrusel-festival {
+        // height: 100%;
+        // min-height: 100vh;
+        // width: 100%;
+        // background-color: blue;
+        .cuerpo__parrafo {
+            font-size: $font-size-sm;
+        }
+        .subtitulo {
+            font-size: 1.3rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    #carrusel-festival .carousel-indicators {
+        position: relative;
+        top: 0px;
+        li {
+            padding: 0 2vw;
+            min-width: 20vw;
+            height: 35px;
+            border-radius: 25px;
+            background-color: $naranjo1;
+            font-size: $font-size-sm;
+        }
+        .active {
+            background-color: $rojo;
+        }
+    }
+    
+    #carrusel-festival .carousel-inner {
+        // height: 50vh;
+        top: 5vh;
+        // background-color: red;
+    }
+    
+    /////////Pantallas MD/////////
+    @media (min-width: 992px) {
+        #festival-bases {
+            min-height: 100vh;
+        }
+        #festival .cuerpo__parrafo {
+            text-justify: distribute-all-lines!important;
+        }
+        #carrusel-festival .carousel-item .row {
+            height: 100%;
+            // background-color: blue;
+        }
+        #carrusel-festival .carousel-inner {
+            height: 100%;
+            // background-color: red;
+        }
+        #carrusel-festival .carousel-indicators {
+            // position: relative;
+            top: 5vh;
+            li {
+                padding: 0 2vw;
+                min-width: 10vw;
+                height: 35px;
+                border-radius: 25px;
+                background-color: $naranjo1;
+                font-size: $font-size-md;
+            }
+            .active {
+                background-color: $naranjo2;
+            }
+        }
+        .subtitulo {
+            font-size: $font-size-md;
+        }
+        ul {
+            list-style: circle;
+        }
+    }

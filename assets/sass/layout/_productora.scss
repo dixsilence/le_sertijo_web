@@ -1,49 +1,16 @@
-.creadora {
-    width: 50vw;
-}
-
-//Productora 
 .productora {
     padding: 8vw;
-    // background-color: white;
-    // background-image: linear-gradient( rgba(255, 255, 255, 0), white, white, white, rgba(255, 255, 255, 0));
-    background-image: linear-gradient( white, white, white, rgba(255, 255, 255, 0));
-    height: 100vh;
+    //  background-image: linear-gradient( white, white, white, rgba(255, 255, 255, 0));
+    height: 100%;
 }
 
-// .productora-carrusel {
-//     background-color: rgba($color: #c5c5c5, $alpha: 1.0);
-// }
 @media (min-width:764px) {
-    .foto__perfil {
-        height: 300px;
-        width: 200px;
-    }
-    .menu__productora {
-        width: 100%;
-        list-style: none;
-        margin: 0 auto;
-        li {
-            text-indent: 0;
-            width: 200px;
-            margin-right: 40px;
-            border: none;
-            background-color: transparent;
-            font-size: 1.2rem;
-        }
-    }
     .titulo__productora {
         width: 100%;
         text-align: center;
     }
-}
-
-.carrusel_punto li {
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-}
-
-.menu__productora {
-    position: relative;
+    .productora_img {
+        height: auto;
+        max-width: 100%;
+    }
 }

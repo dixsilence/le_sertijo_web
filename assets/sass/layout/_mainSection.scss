@@ -1,45 +1,43 @@
- //Sección de info//
- .fa {
-     font-size: 8rem!important;
- }
- 
- .texto__desc {
-     color: white;
- }
- 
- .foto__perfil {
-     width: 50vw;
- }
- /*Sección productora*/
- 
- .compania_l {
-     z-index: 0;
-     position: absolute;
-     left: 0;
-     /* top: 0; */
-     height: 80%;
- }
- 
- .compania_r {
-     z-index: 0;
-     position: absolute;
-     right: 0;
-     /* top: 0; */
-     height: 80%;
- }
- 
- .compania_txt {
-     z-index: 1;
-     right: 0;
- }
- /*Productora*/
- 
- #talleres,
- #festivales {
-     height: 100vh;
- }
- 
- .formulario {
-     width: 50vw;
-     background-color: white;
- }
+//Sección de info//
+// .fa {
+//     font-size: 8rem!important;
+// }
+
+/*Productora*/
+
+// #festivales {
+//     height: 100vh;
+// }
+hr {
+    border-top: 3px solid $blanco;
+    width: 50%;
+}
+
+// #talleres hr {
+//     border-top: 3px solid $blanco;
+// }
+@media (min-width:764px) {
+    hr {
+        border-top: 5px solid $blanco;
+        ;
+        width: 100%;
+    }
+}
+
+#productora-home {
+    padding: 8vw;
+    // background-image: linear-gradient( rgb(65, 255, 223), rgb(255, 102, 0));
+    background-image: (linear-gradient( rgba(255, 95, 23, 1) 0%, rgba(255, 95, 23, 1) 67%, rgba(222, 68, 3, 1) 100%));
+    min-height: 95vh;
+}
+
+@media (min-width:764px) {
+    .titulo__productora {
+        width: 100%;
+        text-align: center;
+    }
+    .productora_img {
+        height: auto;
+        max-width: 100%;
+    }
+}

@@ -2,7 +2,7 @@ $('#carrusel-taller').carousel({
     interval: 8000
 })
 
-$('.carousel  .test').each(function() {
+$('#carrusel-taller .carousel-item').each(function() {
     var minPerSlide = 4;
     var next = $(this).next();
     if (!next.length) {

@@ -1,14 +1,49 @@
 .navbar {
-    z-index: 10;
-    background-color: black;
-    height: 10vh;
+    z-index: 999;
+    background-color: $negro;
+    height: 60px;
+}
+
+#navbarNav .nav-link {
+    // height: 10vh;
+    // text-align: center;
+    &:hover {
+        color: $naranjo2;
+    }
 }
 
 .nav__logo {
-    width: 10vh;
+    // width: 10vh;
     display: block;
+    height: 30px;
 }
 
 .navbar-toggler {
-    font-size: 20px;
+    font-size: $font-size-sm;
 }
+
+.navbar-collapse {
+    background-color: $negro;
+    // margin-top: 19px;
+    width: 100vw;
+    // margin: 0;
+    // padding: 0;
+}
+
+//Test de sticky scroll
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+// .sticky {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+// }
+// .sticky+.content {
+//     padding-top: 5vh;
+// }
+// @media (min-width: 768px) {
+//     .sticky+.content {
+//         padding-top: 10vh;
+//     }
+// }

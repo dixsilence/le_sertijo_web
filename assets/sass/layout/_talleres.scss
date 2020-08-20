@@ -1,27 +1,41 @@
-p {
-    font-size: 0.8rem;
-}
-
+// p {
+//     font-size: $font-size-sm;
+// }
 
 /*Talleres*/
 
-
-/* #talleres {
-    background-color: rgba(255, 255, 255, 0.3); 
-} */
-
-
-/*Foto taller*/
-
-.foto_taller {
-    width: 100%;
+#talleres {
+    // background-color: rgba(255, 255, 255, 0.3);
+    height: 100%;
 }
 
-.perfil {
-    width: 150px;
-    height: 150px;
+// .tarjetas {
+//     background-image: linear-gradient(rgba(255, 255, 255, 1) rgba(158, 30, 30, 0));
+// }
+//Taller escenica
+#taller__escenica {
+    // background-image: url(../img/brick.jpg);
+    // background-attachment: fixed;
+    background-color: black;
 }
 
-.tarjetas {
-    background-image: linear-gradient(rgba(255, 255, 255, 1) rgba(158, 30, 30, 0));
+.taller__foto {
+    width: 50%;
+}
+
+// .taller__lista {
+//     list-style: none;
+//     padding: 0;
+// }
+.taller__img__perfil {
+    width: 50vw;
+}
+
+@media (min-width:764px) {
+    .taller__lista {
+        list-style: numbers;
+    }
+    .taller__img__perfil {
+        width: 50%;
+    }
 }

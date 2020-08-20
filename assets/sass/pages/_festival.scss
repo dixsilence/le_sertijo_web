@@ -1,31 +1,24 @@
-ul {
-    list-style: none;
-    padding: 0;
-}
-
+// ul {
+//     list-style: none;
+//     padding: 0;
+// }
 .info__fondo {
-    background-color: white;
+    background-color: rgba($color: $blanco, $alpha: 0.1);
     padding: 10px;
     margin: 10px;
 }
 
-.head_fest {
-    background-image: url(https://picsum.photos/seed/picsum/1100/300);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // height: 40vh;
+#festival-ensamble {
+    width: 100%;
+    height: 100vh;
+    padding: 8vw;
+    background-image: linear-gradient( rgb(255, 65, 65), rgb(255, 102, 0));
 }
 
-.body__festival {
-    background-image: url(../img/fondo-festival.jpg);
-    // background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
+#festival__btn__postular {
+    margin: 0!important;
 }
 
-html {
-    height: 100%;
+#festival-bases ol {
+    padding: 0 1rem;
 }

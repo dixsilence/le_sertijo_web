@@ -1,7 +1,8 @@
 /*FOOTER*/
 
 footer {
-    background-color: #120c1a;
+    background-color: $negro;
+    // height: 100%;
     ul {
         padding: 0;
     }
@@ -27,12 +28,6 @@ footer {
     font-size: 0.7rem;
 }
 
-.separador {
-    height: 10vh;
-    width: 100%;
-    background-color: red;
-}
-
 .logo__footer {
     /* fill: white; */
     width: 35vw;
@@ -41,9 +36,6 @@ footer {
 
 @media (min-width: 769px) {
     .logo__footer {
-        width: 20vw;
-    }
-    footer {
-        height: 50vh;
+        width: 15vw;
     }
 }
